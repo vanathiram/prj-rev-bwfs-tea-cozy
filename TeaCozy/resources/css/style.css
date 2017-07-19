@@ -1,0 +1,205 @@
+body{
+  font-family: helvetica;
+  font-size: 22px;
+  color:seashell;
+  background-color: black;
+  opacity:0.9;
+  text-align: center;
+}
+
+.header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom:1px solid seashell;
+  background-color: black;
+  height:69px;
+  width: 100%;
+  position: fixed;
+  margin:-8px;
+  z-index: 1;
+}
+
+.header img
+{
+  padding-left:10px;
+}
+
+nav
+{
+  display:flex;
+  align-items:center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+nav span
+{
+  display: inline-block;
+  padding:20px 10px;
+}
+
+a
+{
+  color: seashell;
+}
+
+.content
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 64px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.missioncontainer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:1200px ;
+  height:700px;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+}
+
+.missioncontainer h2
+{
+  padding-top: 10px;
+}
+
+.text1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+}
+
+.featuredteacontainer
+{
+  display: flex;
+  width:1000px;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.featuredteacontainer h2{
+  padding-top: 69px;
+}
+
+.text2
+{
+  display:flex;
+  width: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1
+{
+  display:flex;
+  justify-content:space-between;
+  width:1000px;
+}
+
+.box2
+{
+  display:flex;
+  justify-content: center;
+  width:1000px;
+}
+
+.type1,.type2,.type3,.type4,.type5
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.type4
+{
+  margin: 0 25px 0 0;
+}
+
+.type5
+{
+  margin:0 0 0 25px;
+}
+
+span{
+  padding:10px;
+}
+
+.locationcontainer
+{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  align-items: center;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  background-position:top;
+  background-size:auto;
+}
+
+.locationcontainer h2
+{
+  display: flex;
+  margin-top: 80px;
+  padding-bottom: 15px;
+}
+
+.addresscontainer
+{
+  display:flex;
+  width:1200px;
+  justify-content:center;
+  align-items:flex-start;
+  flex-direction: row;
+}
+
+.address
+{
+  width: 300px;
+  background-color: black;
+  opacity:1;
+  margin:0 20px;
+}
+
+.address h3
+{
+  padding-top: 20px;
+}
+
+h2, h5
+{
+  margin: 0;
+}
+
+.contactcontainer
+{
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+  height:200px;
+  width:100%;
+}
+
+ .footer
+ {
+   display: flex;
+   padding-left: 20px;
+   text-align: left;
+   width: 100%;
+ }
